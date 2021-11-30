@@ -1,0 +1,57 @@
+body{
+     font-size: 30px;
+     font-family: Sacramento;
+     color: white;
+     background:url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v800-mynt-05-job598.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=63d943528d3f5ee8cea71e0655dcfa45");
+     background-repeat: no-repeat;
+     background-size:cover;
+}
+
+.heading{
+     padding: 20px;
+     background: #a47c5f;
+     width: 100%;
+     text-align: left;
+}
+
+.heading h3{
+     font-size: 35px;
+     display: inline;
+}
+
+.heading button{
+     width: 10%;
+     background: #a47c5f;
+     padding: 5px;
+     float: right;
+     border: 2px solid white;
+}
+
+.big_image{
+     width: 100%;
+}
+
+button{
+     border-radius: 20px;
+     padding:5px;
+     width: 100px;
+     border: 2px solid white;
+     background:#a47c5f;
+}
+
+ol{
+     color: black;
+}
+
+h4{
+     font-size: 40px;
+     color: black;
+}
+
+#status{
+     border-radius: 20px;
+     padding:5px;
+     border: 2px solid white;
+     background:#a47c5f;
+     display: none;
+}
