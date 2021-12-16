@@ -1,23 +1,23 @@
 function setup(){
-  var canvas =  createCanvas(700,600);
-  canvas.parent('canvas');
-  
-  video = createCapture(VIDEO);
-  video.size(700, 600);
-  video.hide();
-  
-  poseNet = ml5.poseNet(video, modelLoaded);
-  poseNet.on('pose', gotPoses);
+canvas =  createCanvas(600,500);
+canvas.parent('canvas');
+
+video = createCapture(VIDEO);
+video.hide();
+
+poseNet = ml5.poseNet(video, modelLoaded);
+poseNet.on('pose', gotPoses);
 }
 
-function modelLoaded(){
-  console.log('Model Loaded!');
+function modelLoaded() {
+  console.log('PoseNet Is Initialized');
+}
+
+function gotPoses(){
+
 }
 
 function draw(){
   image(video, 0, 0, 700, 600);
 }
 
-function gotPoses(error, results){
-
-}

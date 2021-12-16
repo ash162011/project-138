@@ -64,3 +64,8 @@ h4{
    width: 100%;
    bottom:0px;
 }
+
+canvas{
+     border: 5px #cb9774 solid;
+     border-radius: 20px;
+}
