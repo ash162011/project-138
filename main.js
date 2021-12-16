@@ -17,3 +17,7 @@ function modelLoaded(){
 function draw(){
   image(video, 0, 0, 700, 600);
 }
+
+function gotPoses(error, results){
+
+}
